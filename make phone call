@@ -1,0 +1,5 @@
+//flutter phone direct caller package
+static makephonecall()async{
+    const phone_number = '09180867 30010';
+    bool? res =  await FlutterPhoneDirectCaller.callNumber(phone_number);
+  }
