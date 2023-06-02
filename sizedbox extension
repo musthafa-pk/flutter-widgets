@@ -1,0 +1,15 @@
+
+Container(),
+
+20.ph,
+
+Container(),
+
+100.pw,
+
+
+
+extension Padding on num {
+SizedBox get ph => SizedBox(height todouble(),);
+SizedBox get pw => SizedBox(width todouble(),);
+}
